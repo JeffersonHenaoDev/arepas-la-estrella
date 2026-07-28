@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Arepas la Estrella | El Sabor de la Tradición</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-bright": "#fff8f4",
+                        "tertiary-fixed-dim": "#e0c647",
+                        "surface-tint": "#725c00",
+                        "secondary": "#006e2a",
+                        "tertiary-fixed": "#fde260",
+                        "surface-container": "#ffead9",
+                        "on-surface-variant": "#4d4633",
+                        "error": "#ba1a1a",
+                        "secondary-fixed-dim": "#63df79",
+                        "inverse-primary": "#ecc315",
+                        "secondary-container": "#7ef990",
+                        "surface-container-lowest": "#ffffff",
+                        "on-background": "#2c1700",
+                        "on-primary-container": "#6c5800",
+                        "on-tertiary-fixed": "#211b00",
+                        "error-container": "#ffdad6",
+                        "primary": "#725c00",
+                        "on-tertiary-container": "#685900",
+                        "on-primary-fixed": "#231b00",
+                        "surface-variant": "#ffdcbc",
+                        "outline-variant": "#d0c6ac",
+                        "tertiary": "#6e5e00",
+                        "primary-fixed-dim": "#ecc315",
+                        "tertiary-container": "#ecd151",
+                        "surface-container-low": "#fff1e7",
+                        "background": "#fff8f4",
+                        "primary-fixed": "#ffe07d",
+                        "surface-dim": "#ffd2a5",
+                        "on-tertiary-fixed-variant": "#534600",
+                        "outline": "#7f7660",
+                        "on-primary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "surface-container-high": "#ffe3cb",
+                        "surface": "#fff8f4",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed": "#002108",
+                        "inverse-surface": "#482902",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#564500",
+                        "on-secondary-container": "#00732c",
+                        "on-surface": "#2c1700",
+                        "on-secondary-fixed-variant": "#00531e",
+                        "secondary-fixed": "#80fc93",
+                        "primary-container": "#f8ce26",
+                        "surface-container-highest": "#ffdcbc",
+                        "inverse-on-surface": "#ffeee0",
+                        "on-secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "sm": "12px",
+                        "md": "16px",
+                        "xl": "32px",
+                        "xs": "4px",
+                        "xxl": "48px",
+                        "lg": "24px",
+                        "gutter": "16px",
+                        "container-margin": "20px"
+                    },
+                    "fontFamily": {
+                        "label-md": ["Work Sans"],
+                        "headline-lg-mobile": ["Plus Jakarta Sans"],
+                        "body-md": ["Work Sans"],
+                        "display-lg": ["Plus Jakarta Sans"],
+                        "body-lg": ["Work Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Plus Jakarta Sans"],
+                        "caption": ["Work Sans"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "800"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "700"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "caption": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #ffffff;
+            color: #2c1700;
+        }
+        .cheese-pull-shadow {
+            text-shadow: 0 4px 8px rgba(92, 58, 17, 0.2);
+        }
+        .tactile-card {
+            box-shadow: 0 4px 20px -5px rgba(92, 58, 17, 0.12);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .tactile-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px -10px rgba(92, 58, 17, 0.2);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .filled-icon {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="bg-surface-bright sticky top-0 full-width z-50 shadow-sm">
+<nav class="flex justify-between items-center w-full px-lg md:px-xl py-md max-w-7xl mx-auto">
+<div class="text-headline-md font-headline-md text-primary tracking-tight">Arepas la Estrella</div>
+<div class="hidden md:flex gap-lg items-center">
+<a class="font-label-md text-label-md text-primary font-bold border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Our Products</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Quality</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Locations</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-lg py-sm rounded-full font-label-md text-label-md font-bold scale-95 active:scale-90 transition-transform shadow-sm">
+                Order Now
+            </button>
+</nav>
+</header>
+<!-- Hero Section -->
+<section class="relative w-full min-h-[85vh] flex items-center overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-90 brightness-90" src="https://lh3.googleusercontent.com/aida/AP1WRLuozPmQgZS7MgCgYECQwgprvL02hmbk4MgbyRyFTeuZYmOnq_dCg8-x3gudWEKY7ybn140-ukXWJBKri5Rj2QufHK04ZrwyS4pX1UesZ9JXd2r_WyHnL8KjS2HgXQikxWWIEGsLPbjhktRGeDVUqICRklj0xYcKTtu_7iWRV60yXVSSRs5deyeIXTAexNExTx2ZQikKrQ7wfNMf__199TRSeppuQJkt2a-mg0NbFkRbwcgdP8qAoWxVtss"/>
+<div class="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent"></div>
+</div>
+<div class="container mx-auto px-lg md:px-xl relative z-10 max-w-7xl">
+<div class="max-w-2xl">
+<h1 class="font-display-lg text-display-lg md:text-[64px] leading-tight text-on-background mb-md cheese-pull-shadow">
+                    El Sabor de la Tradición con el <span class="text-primary">Mejor Queso</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-xl max-w-lg">
+                    Arepas, Panzerottis y Palitos de Queso hechos con amor y mucho, mucho queso. Una experiencia artesanal que se estira en cada bocado.
+                </p>
+<div class="flex flex-wrap gap-md">
+<button class="bg-primary-container text-on-primary-container px-xxl py-md rounded-xl font-headline-md text-headline-md shadow-lg hover:scale-105 active:scale-95 transition-all flex items-center gap-sm">
+<span class="material-symbols-outlined filled-icon">shopping_cart</span>
+                        Pide Ahora
+                    </button>
+<button class="border-2 border-primary text-primary px-xxl py-md rounded-xl font-headline-md text-headline-md hover:bg-primary/5 transition-colors">
+                        Ver Menú
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Quality Section (Calidad Estrella) -->
+<section class="py-xxl bg-white border-y border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-lg">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-xl">
+<div class="flex items-center gap-md">
+<div class="bg-primary-container/20 p-md rounded-full">
+<span class="material-symbols-outlined text-primary text-[40px] filled-icon">verified</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-background">Queso 100% Real</h3>
+<p class="font-body-md text-body-md text-outline">Seleccionamos los mejores quesos madurados.</p>
+</div>
+</div>
+<div class="flex items-center gap-md">
+<div class="bg-secondary-container/20 p-md rounded-full">
+<span class="material-symbols-outlined text-secondary text-[40px] filled-icon">bakery_dining</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-background">Masa Artesanal</h3>
+<p class="font-body-md text-body-md text-outline">Maíz peto seleccionado y molido a mano.</p>
+</div>
+</div>
+<div class="flex items-center gap-md">
+<div class="bg-tertiary-container/20 p-md rounded-full">
+<span class="material-symbols-outlined text-tertiary text-[40px] filled-icon">favorite</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-background">Recetas Tradicionales</h3>
+<p class="font-body-md text-body-md text-outline">El secreto de la abuela en cada mordisco.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Our Specials Section (Nuestros Especiales) -->
+<section class="py-xxl bg-surface-bright">
+<div class="max-w-7xl mx-auto px-lg">
+<div class="flex justify-between items-end mb-xxl">
+<div>
+<h2 class="font-display-lg text-display-lg text-on-background">Nuestros Especiales</h2>
+<p class="font-body-lg text-body-lg text-outline">Los favoritos de nuestra casa, preparados al instante.</p>
+</div>
+<button class="hidden md:block text-primary font-bold hover:underline">Ver todo el menú →</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-xl">
+<!-- Special 1: Arepa -->
+<div class="tactile-card bg-surface-container-lowest rounded-xxl overflow-hidden group">
+<div class="relative aspect-square overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLuozPmQgZS7MgCgYECQwgprvL02hmbk4MgbyRyFTeuZYmOnq_dCg8-x3gudWEKY7ybn140-ukXWJBKri5Rj2QufHK04ZrwyS4pX1UesZ9JXd2r_WyHnL8KjS2HgXQikxWWIEGsLPbjhktRGeDVUqICRklj0xYcKTtu_7iWRV60yXVSSRs5deyeIXTAexNExTx2ZQikKrQ7wfNMf__199TRSeppuQJkt2a-mg0NbFkRbwcgdP8qAoWxVtss"/>
+<div class="absolute top-md left-md">
+<span class="bg-secondary text-white px-md py-xs rounded-full font-label-md text-label-md uppercase tracking-wider">Más Pedido</span>
+</div>
+<button class="absolute bottom-md right-md bg-primary-container p-md rounded-full shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-primary-container">add</span>
+</button>
+</div>
+<div class="p-lg">
+<div class="flex justify-between items-start mb-sm">
+<h3 class="font-headline-md text-headline-md">Arepa de Queso</h3>
+<span class="font-headline-md text-headline-md text-primary">$12.500</span>
+</div>
+<p class="font-body-md text-body-md text-outline mb-md">Nuestra especialidad con queso que estira. Masa de maíz amarillo tostada a la perfección.</p>
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="ml-sm text-caption text-outline">(120+ reviews)</span>
+</div>
+</div>
+</div>
+<!-- Special 2: Panzerotti -->
+<div class="tactile-card bg-surface-container-lowest rounded-xxl overflow-hidden group">
+<div class="relative aspect-square overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLt6mvWujMC5fryBOR0D03cwnEhfwOpTK8EFYD_PD80WtIL38FHJZ4foe87-3diSWEWTCgwTulYhO0XbE494HPTdw_XAPybmMoB6d4Dzr33i71UnRhxsi8kH24e9_U4Oc3vcRka55HTrLFu462kLGo_Dsk4j-WWLqSokvSvVz_CX3u9ygT6G7il6judoY66P-cxfkUUlUDRST0YisQWdA3FesAGJzIhPEs-nIXeyb-RAT4K5e6Hft4qpB4A"/>
+<div class="absolute top-md left-md">
+<span class="bg-primary text-white px-md py-xs rounded-full font-label-md text-label-md uppercase tracking-wider">Nuevo</span>
+</div>
+<button class="absolute bottom-md right-md bg-primary-container p-md rounded-full shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-primary-container">add</span>
+</button>
+</div>
+<div class="p-lg">
+<div class="flex justify-between items-start mb-sm">
+<h3 class="font-headline-md text-headline-md">Panzerotti de Queso</h3>
+<span class="font-headline-md text-headline-md text-primary">$8.900</span>
+</div>
+<p class="font-body-md text-body-md text-outline mb-md">Crujiente por fuera, fundido por dentro. Una explosión de sabor italiano con toque criollo.</p>
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary text-[18px]">star</span>
+<span class="ml-sm text-caption text-outline">(85 reviews)</span>
+</div>
+</div>
+</div>
+<!-- Special 3: Palitos -->
+<div class="tactile-card bg-surface-container-lowest rounded-xxl overflow-hidden group">
+<div class="relative aspect-square overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AP1WRLuaJ7CzL2dUrXd9-OTips_eOq5Vwnk6qAk5DQUYNDwRtARB98FoKaIvRIiYoLVRSSBORf3Ie1omuNBckQx2KnIZFWGsUrIISfgkieGCHjmo2qhPtqTdgv2ob5vcnanZyNGqyBJaWEMY1SMhPUXGb5LfHJhFEK2c-jEcjDyOb80J1_aCpLV70upYhAlyy5tzL5-Pj9rTWT74G4AtbhaOK4kAw1ZJvteaRmUeMzPqoefPAko1AviKUJboQ9k"/>
+<div class="absolute top-md left-md">
+<span class="bg-tertiary text-white px-md py-xs rounded-full font-label-md text-label-md uppercase tracking-wider">Infaltables</span>
+</div>
+<button class="absolute bottom-md right-md bg-primary-container p-md rounded-full shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-on-primary-container">add</span>
+</button>
+</div>
+<div class="p-lg">
+<div class="flex justify-between items-start mb-sm">
+<h3 class="font-headline-md text-headline-md">Palitos de Queso</h3>
+<span class="font-headline-md text-headline-md text-primary">$15.000 (x6)</span>
+</div>
+<p class="font-body-md text-body-md text-outline mb-md">El snack perfecto para cualquier momento. Masa suave y elástica rellena de queso costeño.</p>
+<div class="flex items-center gap-xs">
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="material-symbols-outlined text-primary filled-icon text-[18px]">star</span>
+<span class="ml-sm text-caption text-outline">(200+ reviews)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Cheese Pull Gallery (Immersive Component) -->
+<section class="w-full overflow-hidden py-xxl bg-white">
+<h2 class="text-center font-display-lg text-display-lg mb-xl">Antójate de Verdad</h2>
+<div class="flex gap-md overflow-x-auto px-lg pb-xl snap-x no-scrollbar">
+<div class="snap-center shrink-0 w-[80vw] md:w-[40vw] aspect-[16/10] rounded-xxl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLuozPmQgZS7MgCgYECQwgprvL02hmbk4MgbyRyFTeuZYmOnq_dCg8-x3gudWEKY7ybn140-ukXWJBKri5Rj2QufHK04ZrwyS4pX1UesZ9JXd2r_WyHnL8KjS2HgXQikxWWIEGsLPbjhktRGeDVUqICRklj0xYcKTtu_7iWRV60yXVSSRs5deyeIXTAexNExTx2ZQikKrQ7wfNMf__199TRSeppuQJkt2a-mg0NbFkRbwcgdP8qAoWxVtss"/>
+</div>
+<div class="snap-center shrink-0 w-[80vw] md:w-[40vw] aspect-[16/10] rounded-xxl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLt6mvWujMC5fryBOR0D03cwnEhfwOpTK8EFYD_PD80WtIL38FHJZ4foe87-3diSWEWTCgwTulYhO0XbE494HPTdw_XAPybmMoB6d4Dzr33i71UnRhxsi8kH24e9_U4Oc3vcRka55HTrLFu462kLGo_Dsk4j-WWLqSokvSvVz_CX3u9ygT6G7il6judoY66P-cxfkUUlUDRST0YisQWdA3FesAGJzIhPEs-nIXeyb-RAT4K5e6Hft4qpB4A"/>
+</div>
+<div class="snap-center shrink-0 w-[80vw] md:w-[40vw] aspect-[16/10] rounded-xxl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLuaJ7CzL2dUrXd9-OTips_eOq5Vwnk6qAk5DQUYNDwRtARB98FoKaIvRIiYoLVRSSBORf3Ie1omuNBckQx2KnIZFWGsUrIISfgkieGCHjmo2qhPtqTdgv2ob5vcnanZyNGqyBJaWEMY1SMhPUXGb5LfHJhFEK2c-jEcjDyOb80J1_aCpLV70upYhAlyy5tzL5-Pj9rTWT74G4AtbhaOK4kAw1ZJvteaRmUeMzPqoefPAko1AviKUJboQ9k"/>
+</div>
+</div>
+</section>
+<!-- Contact/CTA Section -->
+<section class="py-xxl bg-inverse-surface text-on-primary-fixed overflow-hidden relative">
+<div class="absolute right-0 bottom-0 opacity-10 translate-x-1/4 translate-y-1/4">
+<span class="material-symbols-outlined text-[400px]">restaurant_menu</span>
+</div>
+<div class="max-w-4xl mx-auto text-center px-lg relative z-10">
+<h2 class="font-display-lg text-display-lg mb-md">¿Hambre de algo auténtico?</h2>
+<p class="font-body-lg text-body-lg text-surface-variant mb-xl">
+                Llevamos el sabor de la estrella hasta la puerta de tu casa. Pide ahora y disfruta del queso más fresco de la ciudad.
+            </p>
+<div class="flex flex-col md:flex-row items-center justify-center gap-lg">
+<a class="bg-[#0e9d41] hover:bg-[#0b8a36] text-white px-xxl py-md rounded-xxl font-headline-md text-headline-md flex items-center gap-sm transition-all shadow-xl hover:-translate-y-1 active:scale-95" href="https://wa.me/yournumber" target="_blank">
+<span class="material-symbols-outlined filled-icon">chat</span>
+                    ¡Pide por WhatsApp!
+                </a>
+<div class="flex items-center gap-md">
+<div class="text-left">
+<p class="font-label-md text-label-md text-outline-variant">Llámanos directamente</p>
+<p class="font-headline-md text-headline-md text-primary-fixed">+57 300 000 0000</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-inverse-surface dark:bg-surface-container-lowest full-width py-xxl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-xl px-lg max-w-7xl mx-auto">
+<div class="space-y-md">
+<div class="text-headline-md font-headline-md text-primary-fixed">Arepas la Estrella</div>
+<p class="font-body-md text-body-md text-surface-variant">Sabor artesanal, tradición y mucho queso en cada una de nuestras creaciones.</p>
+</div>
+<div class="flex flex-col gap-sm">
+<h4 class="font-label-md text-label-md text-tertiary-fixed mb-sm">Empresa</h4>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors" href="#">Menu</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors" href="#">About Us</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors" href="#">Quality Standards</a>
+</div>
+<div class="flex flex-col gap-sm">
+<h4 class="font-label-md text-label-md text-tertiary-fixed mb-sm">Legal</h4>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors" href="#">Shipping Info</a>
+</div>
+<div class="flex flex-col gap-sm">
+<h4 class="font-label-md text-label-md text-tertiary-fixed mb-sm">Soporte</h4>
+<a class="font-body-md text-body-md text-surface-variant hover:text-primary-container transition-colors font-bold" href="#">WhatsApp Support</a>
+<div class="flex gap-md mt-md">
+<span class="material-symbols-outlined text-surface-variant cursor-pointer hover:text-primary-fixed">share</span>
+<span class="material-symbols-outlined text-surface-variant cursor-pointer hover:text-primary-fixed">location_on</span>
+<span class="material-symbols-outlined text-surface-variant cursor-pointer hover:text-primary-fixed">mail</span>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-lg mt-xxl pt-xl border-t border-outline/20 text-center">
+<p class="font-body-md text-body-md text-surface-variant opacity-80">© 2024 Arepas la Estrella. All rights reserved. Savor the tradition.</p>
+</div>
+</footer>
+<script>
+        // Smooth horizontal scroll for gallery
+        const scrollContainer = document.querySelector('.no-scrollbar');
+        scrollContainer.addEventListener('wheel', (evt) => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+        }, { passive: false });
+    </script>
+</body></html>
