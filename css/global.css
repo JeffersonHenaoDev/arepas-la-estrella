@@ -271,7 +271,7 @@ h3 { font-size: 22px; line-height: 28px; font-weight: 700; }
   margin-bottom: var(--space-xxl);
 }
 @media (min-width: 640px) { .arepas-grid { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 1024px) { .arepas-grid { grid-template-columns: repeat(5, 1fr); } }
+@media (min-width: 1024px) { .arepas-grid { grid-template-columns: repeat(3, 1fr); } }
 
 .product-card {
   background-color: var(--color-surface-container-lowest);
