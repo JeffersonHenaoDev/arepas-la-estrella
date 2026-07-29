@@ -9,6 +9,9 @@
  A mediano plazo, Alimentos y Productos La Estrella S.A.S. será líder en la distribución y comercialización de arepas rellenas de queso tipo mozzarella, pizzas, palitos de queso y panzerottis en Medellín y los municipios aledaños. Nos distinguiremos por la innovación, la excelencia en la calidad y el inconfundible sabor de nuestros productos, consolidándonos como una marca referente en el sector de alimentos
 
 
+ ## Distribución Mayorista
+ Somos grandes proveedores y distribuidores de productos de alta calidad, con capacidad para abastecer supermercados, tiendas de cadena y grandes almacenes.
+
  ## Productos
  **Arepas**
  - Super: _Paquete x10 Unidades 2800gr_ / _Paquete x5 Unidades 1400gr_

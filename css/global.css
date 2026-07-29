@@ -320,6 +320,67 @@ h3 { font-size: 22px; line-height: 28px; font-weight: 700; }
 .category-card-body .btn { margin-top: auto; align-self: flex-start; }
 
 /* =========================================================
+   Videos
+   ========================================================= */
+.videos { padding-block: var(--space-xxl); background-color: var(--color-surface-container-low); }
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+}
+@media (min-width: 640px) { .video-grid { grid-template-columns: repeat(4, 1fr); } }
+.video-card {
+  background-color: #000;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.video-card video {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  display: block;
+  background-color: #000;
+}
+
+/* =========================================================
+   Distribución Mayorista
+   ========================================================= */
+.distribution { padding-block: var(--space-xxl); background-color: #ffffff; border-block: 1px solid rgba(208, 198, 172, 0.3); }
+.distribution-inner { display: flex; flex-direction: column; gap: var(--space-xxl); align-items: center; text-align: center; }
+.distribution-text { max-width: 640px; }
+.distribution-text p { color: var(--color-outline); font-size: 18px; line-height: 28px; margin-top: var(--space-sm); }
+.distribution-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-lg);
+  width: 100%;
+  max-width: 900px;
+}
+@media (min-width: 768px) { .distribution-grid { grid-template-columns: repeat(3, 1fr); } }
+.distribution-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  background-color: var(--color-surface-container-low);
+  border-radius: var(--radius-lg);
+}
+.distribution-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  background-color: rgba(248, 206, 38, 0.2);
+  color: var(--color-primary);
+}
+.distribution-item h3 { font-size: 18px; }
+.distribution-item p { color: var(--color-outline); font-size: 14px; }
+
+/* =========================================================
    Gallery
    ========================================================= */
 .gallery { padding-block: var(--space-xxl); background-color: #ffffff; }
