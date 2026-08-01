@@ -237,6 +237,11 @@ h3 { font-size: 22px; line-height: 28px; font-weight: 700; }
    ========================================================= */
 .mission { padding-block: var(--space-xxl); background-color: #ffffff; border-block: 1px solid rgba(208, 198, 172, 0.3); }
 .mission-text { max-width: 760px; font-size: 18px; line-height: 28px; color: var(--color-on-surface-variant); margin-bottom: var(--space-xxl); }
+.mission-vision-container { display: grid; grid-template-columns: 1fr; gap: var(--space-xxl); margin-bottom: var(--space-xxl); }
+@media (min-width: 768px) { .mission-vision-container { grid-template-columns: repeat(2, 1fr); } }
+.mission-box, .vision-box { padding: var(--space-lg); border-radius: var(--radius-lg); background-color: var(--color-surface-container-low); }
+.mission-box h2, .vision-box h2 { margin-bottom: var(--space-md); color: var(--color-primary); }
+.mission-box p, .vision-box p { font-size: 16px; line-height: 26px; color: var(--color-on-surface-variant); }
 .quality-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-xl); }
 .quality-item { display: flex; align-items: center; gap: var(--space-md); }
 .quality-icon {
