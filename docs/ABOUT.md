@@ -1,12 +1,40 @@
-# Arepas la Estrella
+# Alimentos y Productos La Estrella S.A.S.
+
+## Nuestra Historia
+_Desde 1998 llevando sabor, calidad y tradición a las familias colombianas_
+
+Todo comenzó en 1998, en la ciudad de Pereira.
+
+En ese entonces, nuestras hijas apenas eran unas bebés. Llegamos del campo a Pereira con lo puesto, sin dinero, sin experiencia, sin conocer el mundo de la ciudad y sin más patrimonio que nuestras manos, nuestra fuerza de trabajo y un sueño inmenso de salir adelante. Creíamos que el trabajo honesto y la perseverancia podían abrirnos el camino, y decidimos apostar todo por ese sueño.
+
+Cada día fue un nuevo aprendizaje. Con trabajo honesto, disciplina y el respaldo de nuestros clientes, ese pequeño emprendimiento familiar fue creciendo hasta convertirse en una empresa reconocida en Pereira y sus alrededores.
+
+Con el paso de los años, nuestras hijas crecieron y se integraron a la empresa, aportando nuevas ideas, compromiso y el mismo amor por el trabajo que nos impulsó desde el primer día.
+
+En 2011 tomamos una de las decisiones más importantes de nuestra historia: dejar atrás lo que habíamos construido en Pereira para comenzar una nueva etapa en Medellín.
+
+Gracias a la calidad de nuestros productos, al compromiso con nuestros clientes y al esfuerzo de todo nuestro equipo, crecimos rápidamente hasta consolidarnos como una empresa reconocida en Antioquia.
+
+Hoy abastecemos distribuidores, supermercados, tiendas, cafeterías, restaurantes y otros negocios en diferentes regiones de Colombia.
+
+No heredamos una empresa. La construimos con nuestras propias manos, un cliente a la vez, un producto a la vez y un sueño que nunca dejamos de perseguir.
 
 
 ## Misión
- Alimentso y Productos La Estrella S.A.S tiene como misión llevar nuestras arepas rellenas de queso tipo mozzarella 100% natural, pizzas, palitos de queso y panzerottis a todos los puntos de distribución y expendio de comidas rápidas. Buscamos consolidarnos como una empresa reconocida a nivel local, regional, nacional e internacional por la calidad, sabor y valor agregado de nuestros productos, bridnando experiencias únicas que conquisten el paladar de nuestros clientes.
+ En Alimentos y Productos La Estrella S.A.S. elaboramos alimentos de alta calidad con recetas que conservan el sabor artesanal, utilizando materias primas seleccionadas y procesos que garantizan frescura, inocuidad y excelencia. Trabajamos cada día para ser el aliado confiable de distribuidores, supermercados, tiendas, restaurantes y demás clientes, ofreciendo productos que generan confianza, rentabilidad y satisfacción.
 
 
  ## Visión
- A mediano plazo, Alimentos y Productos La Estrella S.A.S. será líder en la distribución y comercialización de arepas rellenas de queso tipo mozzarella, pizzas, palitos de queso y panzerottis en Medellín y los municipios aledaños. Nos distinguiremos por la innovación, la excelencia en la calidad y el inconfundible sabor de nuestros productos, consolidándonos como una marca referente en el sector de alimentos
+ Ser una de las empresas líderes en Colombia en la fabricación y distribución de arepas rellenas, palitos de queso, pizzas, panzerottis y productos congelados, reconocida por la calidad de nuestros productos, la innovación, el cumplimiento y el compromiso con nuestros clientes, expandiendo nuestra presencia a todo el territorio nacional y proyectándonos hacia mercados internacionales.
+
+ ## Valores
+•	Integridad
+•	Calidad
+•	Compromiso
+•	Trabajo en equipo
+•	Innovación
+•	Pasión
+•	Perseverancia
 
 
  ## Distribución Mayorista

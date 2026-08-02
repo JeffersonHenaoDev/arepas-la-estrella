@@ -263,6 +263,29 @@ h3 { font-size: 22px; line-height: 28px; font-weight: 700; }
 }
 
 /* =========================================================
+   History Section
+   ========================================================= */
+.history { padding-block: var(--space-xxl); background-color: var(--color-surface-bright); }
+.history-content { display: grid; grid-template-columns: 1fr; gap: var(--space-xxl); align-items: center; }
+@media (min-width: 768px) { .history-content { grid-template-columns: 1fr 1fr; } }
+.history-image-wrapper { display: flex; justify-content: center; }
+.history-image { border: 10px solid var(--color-primary); border-radius: var(--radius-lg); max-width: 100%; height: auto; display: block; box-shadow: var(--shadow-lg); }
+.history-text p { font-size: 16px; line-height: 26px; color: var(--color-on-surface-variant); margin-bottom: var(--space-md); }
+.history-text p:last-child { font-weight: 600; color: var(--color-primary); }
+
+/* =========================================================
+   Values Section
+   ========================================================= */
+.values { padding-block: var(--space-xxl); background-color: #ffffff; border-block: 1px solid rgba(208, 198, 172, 0.3); }
+.values-grid { display: grid; grid-template-columns: 1fr; gap: var(--space-xl); }
+@media (min-width: 640px) { .values-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .values-grid { grid-template-columns: repeat(4, 1fr); } }
+.value-item { display: flex; flex-direction: column; align-items: center; text-align: center; padding: var(--space-lg); background-color: var(--color-surface-container-low); border-radius: var(--radius-lg); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.value-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-md-hover); }
+.value-icon { display: flex; align-items: center; justify-content: center; width: 80px; height: 80px; border-radius: var(--radius-full); background-color: rgba(248, 206, 38, 0.15); color: var(--color-primary); margin-bottom: var(--space-md); }
+.value-item h3 { font-size: 18px; color: var(--color-on-background); }
+
+/* =========================================================
    Catalog
    ========================================================= */
 .catalog { padding-block: var(--space-xxl); background-color: var(--color-surface-bright); }
